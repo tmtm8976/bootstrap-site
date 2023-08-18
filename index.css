@@ -1,0 +1,241 @@
+#nav{
+    padding: 30px 20px;
+
+    display: flex;
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: red;
+    font-weight: bold;
+  }
+
+  .navbar-dark .navbar-nav .nav-link.dropdown-toggle::after {
+    display: none;
+  }
+
+  .navbar-dark .navbar-nav .nav-link.dropdown-toggle:hover {
+    color: red;
+    font-weight: bold;
+  }
+
+  .navbar-dark .navbar-nav .dropdown-menu {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .navbar-dark .navbar-nav .dropdown-item {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+
+  .navbar-dark .navbar-nav .dropdown-item:hover {
+    background-color: red;
+    color: rgb(0, 0, 0);
+    transform: scale(1.1);
+  }
+
+  .navbar-dark .navbar-nav .dropdown-menu.show {
+    display: block;
+  }
+
+  .navbar-dark .navbar-nav .badge {
+    background-color: red;
+    color: rgb(0, 0, 0);
+  }
+
+  .navbar-dark .navbar-nav .nav-link.right-section {
+    margin-left: 10px;
+  }
+
+  .navbar-dark .navbar-nav .nav-link.right-section:hover {
+    color: red;
+    font-weight: bold;
+  }
+
+  .navbar-dark .navbar-nav .nav-link.right-section .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+  }
+
+  .navbar-dark .navbar-brand img {
+    height: 30px;
+  }
+  .black-band{
+    padding: 20px 0;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    color: #d5c8cf;
+  }
+  #shop{
+    color: bisque;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .hero-section {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 100px 0;
+  }
+  
+  .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .header-text {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .paragraph-text {
+    font-size: 1.5rem;
+  }
+  
+  .btn-primary {
+    background-color: #fff;
+    color: #000;
+    border: none;
+  }
+  
+  .btn-primary:hover,
+  .btn-primary:focus {
+    background-color: #dc3545;
+    color: #fff;
+  } 
+  
+  .hero-section {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Adjust the transparency as needed */
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    color: #ffffff;
+    /* White color for the buttons */
+  }
+
+  .carousel-item {
+    position: relative;
+  }
+
+  .carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Adjust the transparency as needed */
+  }
+
+  .carousel-item .content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: right;
+    transform: translateY(-50%);
+  }
+
+  .carousel-item .content h2 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .carousel-item .content p {
+    color: #000000;
+    font-size: 14px;
+  }
+
+  .carousel-item .content .btn {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+
+  .testimonial-item {
+    padding: 30px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .testimonial-item p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .testimonial-item h5 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .testimonial-item span {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+  } 
+
+
+  .card-hover:hover{
+    color: red;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+  }
+
+  .f-card{
+    height: 370px;
+    position: relative;
+    color: #fff;
+  }
+
+  .f-card div{
+    background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    bottom: 0%;
+  }
+
+  .h4-hover:hover{
+    margin-top: 50px;
+  }
+  
+  .testmonial-area {
+    background: #F3EAD8;
+    position: relative;
+  }
+
+  .custome-card-style{
+    width: 600px;
+    margin: 20px;
+
+  }
+  
+  .custome-card-style p{
+    font-weight: bold;
+    color: #605f5f;
+  }
+
+  .custome-card-style span{
+    color: #D0BFA0;
+    text-decoration: line-through;
+  }
+
+  .element::-webkit-scrollbar {
+    display: none;
+  }

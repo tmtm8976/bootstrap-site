@@ -1,0 +1,496 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom font-s">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Privacy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Careers</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav text-center">
+              <li class="nav-item">
+                <a class="nav-link" href="#">My Wishlist | </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Track Your Order | </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-white d-flex justify-content-center  align-content-center   " id="nav">
+        <a class="navbar-brand h-100 " href="#"><img src="assests/logo.png" alt="Logo" height="200px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav mx-5  ">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Men</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Women</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Baby Collection <sup class="badge badge-danger" style="color: white;">New</sup></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Pages
+              </a>
+              <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+                <a class="dropdown-item" href="#">Login</a>
+                <a class="dropdown-item" href="#">Cart</a>
+                <a class="dropdown-item" href="#">Product Details</a>
+                <a class="dropdown-item" href="#">Product Checkout</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="blogDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Blog
+              </a>
+              <div class="dropdown-menu" aria-labelledby="blogDropdown">
+                <a class="dropdown-item" href="#">Blog</a>
+                <a class="dropdown-item" href="#">Blog Details</a>
+                <a class="dropdown-item" href="#">Element</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-search"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-user"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i> <sup><span class="badge badge-danger" style="color: white;">1</span></sup></a>
+            </li>
+          </ul>
+      </nav>
+
+      <div class="black-band">
+        Sale Up To 50% Biggest Discounts. Hurry! Limited Perriod Offer <a id="shop">Shop Now</a>
+      </div>
+
+      <div id="myCarousel" class="carousel-fade  h-75 " data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="position: relative;">
+            <img src="assests/h1_hero1.jpg" alt="" style="position: absolute; top: 0%; left: 0%;">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+    
+            <div class="container">
+              <div class="carousel-caption d-flex flex-column text-black align-items-start ">
+                <div class="text-center w-50 ">
+                  <h3 class="text-danger fw-light ">Fashion Sale</h3>
+                  <h1>Minimal Menz Style</h1>
+                  <h4 class="fw-light mb-4">Consectetur adipisicing elit. Laborum fuga incidunt laboriosam voluptas iure, delectus dignissimos facilis neque nulla earum.</h4>
+                  <p><a class="btn btn-lg btn-dark rounded-0  " href="#">SHOP NOW</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="carousel-item" style="position: relative;" >
+            <img src="assests/h1_hero2.jpg" alt="" style="position: absolute; top: 0%; left: 0%;">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+    
+            <div class="container" >
+              <div class="carousel-caption d-flex flex-column text-black align-items-end ">
+                <div class="text-center w-50 ">
+                  <h3 class="text-danger fw-light ">Fashion Sale</h3>
+                  <h1>Minimal Menz Style</h1>
+                  <h4 class="fw-light mb-4">Consectetur adipisicing elit. Laborum fuga incidunt laboriosam voluptas iure, delectus dignissimos facilis neque nulla earum.</h4>
+                  <p><a class="btn btn-lg btn-dark rounded-0  " href="#">SHOP NOW</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev " type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon pt-5 bg-dark" aria-hidden="true"></span>
+          <span class="visually-hidden ">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon pt-5 bg-dark" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <div class="container d-flex justify-content-around  pt-5 ">
+        <div class="d-flex flex-column text-center overflow-hidden f-card">
+          <img src="assests/items1.jpg" alt="">
+          <div>
+            <h4 class="mt-5 h4-hover">Men's Fashion</h4>
+            <a class="fw-semibold a-hover" style="color: bisque;">Shop now</a>
+          </div>
+        </div>
+        <div class="d-flex flex-column text-center overflow-hidden f-card">
+          <img src="assests/items2.jpg" alt="">
+          <div>
+            <h4 class="mt-5 h4-hover">Women's Fashion</h4>
+            <a class="fw-semibold a-hover" style="color: bisque;">Shop now</a>
+          </div>
+        </div>
+        <div class="d-flex flex-column text-center overflow-hidden f-card">
+          <img src="assests/items3.jpg" alt="">
+          <div>
+            <h4 class="mt-5 h4-hover">Baby Fashion</h4>
+            <a class="fw-semibold a-hover" style="color: bisque;">Shop now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="trending d-flex flex-column p-5 ">
+        <div class="d-flex align-middle justify-content-between  pt-5 ">
+          <h1>Trending This Week</h1>
+          <ul class="nav gap-5 float-end">
+            <li class="my-auto ">Men</li>
+            <li class="my-auto ">Women</li>
+            <li class="my-auto ">Baby</li>
+            <li class="my-auto ">Fashion</li>
+          </ul>
+        </div>
+        <hr>
+          <!-- slider -->
+          <div class="d-flex overflow-x-scroll element justify-content-center  text-center ">
+            <div class="card rounded-0 border-0 custome-card-style">
+              <img src="assests/latest1.jpg" alt="" class="card-img rounded-0">
+              <p>Cashmere Tank + Bag</p>
+              <p>$98.00 <span>$120.00</span></p>
+            </div>
+            
+            <div class="card rounded-0 border-0 custome-card-style">
+              <img src="assests/latest2.jpg" alt="" class="card-img rounded-0">
+              <p>Cashmere Tank + Bag</p>
+              <p>$98.00 <span>$120.00</span></p>
+            </div>
+            
+            <div class="card rounded-0 border-0 custome-card-style">
+              <img src="assests/latest3.jpg" alt="" class="card-img rounded-0">
+              <p>Cashmere Tank + Bag</p>
+              <p>$98.00 <span>$120.00</span></p>
+            </div>
+            
+            <div class="card rounded-0 border-0 custome-card-style">
+              <img src="assests/latest4.jpg" alt="" class="card-img rounded-0">
+              <p>Cashmere Tank + Bag</p>
+              <p>$98.00 <span>$120.00</span></p>
+            </div>
+
+          </div>
+          </div>
+
+        <!-- Customer Testimonial -->
+        <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-block w-100 d-flex justify-content-center position-relative testmonial-area py-5 ">
+                <div class="w-50 p-5  d-flex flex-column justify-content-center  align-items-center text-center ">
+                  <h2>Customer Testimonial</h2>
+                  <h5 class="fw-normal mb-5 mt-3">Everybody is different, which is why we offer styles for every body. Laborum fuga incidunt laboriosam voluptas iure, delectus dignissimos facilis neque nulla earum.</h5>
+                  <div class="d-flex ">
+                    <img src="assests/founder-img.png" alt="founder image" class="mx-3 ">
+                    <div class="d-flex flex-column text-start ">
+                      <h6>Petey Cruiser</h6>
+                      <p class="fw-bold text-secondary ">Designer at Colorlib</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <div class="carousel-item">
+              <div class="d-block w-100 d-flex justify-content-center position-relative testmonial-area py-5 ">
+                <div class="w-50 p-5  d-flex flex-column justify-content-center  align-items-center text-center ">
+                  <h2>Customer Testimonial</h2>
+                  <h5 class="fw-normal mb-5 mt-3">Everybody is different, which is why we offer styles for every body. Laborum fuga incidunt laboriosam voluptas iure, delectus dignissimos facilis neque nulla earum.</h5>
+                  <div class="d-flex ">
+                    <img src="assests/founder-img.png" alt="founder image" class="mx-3 ">
+                    <div class="d-flex flex-column text-start ">
+                      <h6>Petey Cruiser</h6>
+                      <p class="fw-bold text-secondary ">Designer at Colorlib</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-block w-100 d-flex justify-content-center position-relative testmonial-area py-5 ">
+                <div class="w-50 p-5  d-flex flex-column justify-content-center  align-items-center text-center ">
+                  <h2>Customer Testimonial</h2>
+                  <h5 class="fw-normal mb-5 mt-3">Everybody is different, which is why we offer styles for every body. Laborum fuga incidunt laboriosam voluptas iure, delectus dignissimos facilis neque nulla earum.</h5>
+                  <div class="d-flex ">
+                    <img src="assests/founder-img.png" alt="founder image" class="mx-3 ">
+                    <div class="d-flex flex-column text-start ">
+                      <h6>Petey Cruiser</h6>
+                      <p class="fw-bold text-secondary ">Designer at Colorlib</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+
+        <!-- You May Like -->
+        <div class="p-5 d-flex flex-column justify-content-center text-center ">
+          <h2 class="">You May Like</h2>
+          
+          <!-- slider -->
+          <div class="d-flex overflow-x-scroll element justify-content-center  text-center ">
+            <div class="card rounded-0 border-0 custome-card-style">
+              <img src="assests/latest5.jpg" alt="" class="card-img rounded-0">
+              <p>Cashmere Tank + Bag</p>
+              <p>$98.00 <span>$120.00</span></p>
+            </div>
+            
+            <div class="card rounded-0 border-0 custome-card-style">
+              <img src="assests/latest6.jpg" alt="" class="card-img rounded-0">
+              <p>Cashmere Tank + Bag</p>
+              <p>$98.00 <span>$120.00</span></p>
+            </div>
+            
+            <div class="card rounded-0 border-0 custome-card-style">
+              <img src="assests/latest7.jpg" alt="" class="card-img rounded-0">
+              <p>Cashmere Tank + Bag</p>
+              <p>$98.00 <span>$120.00</span></p>
+            </div>
+            
+            <div class="card rounded-0 border-0 custome-card-style">
+              <img src="assests/latest8.jpg" alt="" class="card-img rounded-0">
+              <p>Cashmere Tank + Bag</p>
+              <p>$98.00 <span>$120.00</span></p>
+            </div>
+
+          </div>
+          </div>
+        
+
+        <!-- Latest News -->
+        <div class="bg-body-tertiary d-flex flex-column justify-content-center align-content-center align-items-lg-center py-5 ">
+
+          <h2>Latest News</h2>
+
+          <!-- card container -->
+          <div class="d-flex justify-content-center ">
+            <div class="w-25 card-hover">
+              <img src="assests/blog1.jpg" alt="">
+              <p class="text-secondary">Fashion Tips</p>
+              <h5>What Curling Irons Are The Best Ones</h5>
+              <p class="text-secondary ">
+                Consectetur adipisicing elit. Laborum fuga incidunt laboriosam voluptas iure, delectus..
+              </p>
+              <a href="#" class="link-dark fw-bold ">Read More</a>
+            </div>
+            
+            <div class="w-25 mx-5 card-hover">
+              <img src="assests/blog2.jpg" alt="">
+              <p class="text-secondary">Fashion Tips</p>
+              <h5>Vogue's Ultimate Guide To Autumn/ Winter 2019 Shoes</h5>
+              <p class="text-secondary ">
+                Consectetur adipisicing elit. Laborum fuga incidunt laboriosam voluptas iure, delectus..
+              </p>
+              <a href="#" class="link-dark fw-bold ">Read More</a>
+            </div>
+            
+            <div class="w-25 card-hover">
+              <img src="assests/blog3.jpg" alt="">
+              <p class="text-secondary">Fashion Tips</p>
+              <h5>What Curling Irons Are The Best Ones</h5>
+              <p class="text-secondary ">
+                Consectetur adipisicing elit. Laborum fuga incidunt laboriosam voluptas iure, delectus..
+              </p>
+              <a href="#" class="link-dark fw-bold ">Read More</a>
+            </div>
+          </div>
+         
+
+        </div>
+
+        <!-- last section -->
+        <div class="d-flex justify-content-center  py-5 px-xxl-5 ">
+
+          <div class="d-flex flex-column text-center align-content-center w-25 px-5 justify-content-end " style="border-right: 2px rgb(244, 243, 243) solid;">
+            <img src="assests/services1.svg" alt="" class="w-25 align-self-center pb-4 ">
+            <h6>Fast & Free Delivery</h6>
+            <p class="text-secondary ">Free delivert on all orders</p>
+          </div>
+          
+          <div class="d-flex flex-column text-center align-content-center w-25 px-5 justify-content-end" style="border-right: 2px rgb(244, 243, 243) solid;">
+            <img src="assests/services2.svg" alt="" class="w-25 align-self-center pb-4 ">
+            <h6>Secure Payment</h6>
+            <p class="text-secondary ">Free delivert on all orders</p>
+          </div>
+          
+          <div class="d-flex flex-column text-center align-content-center w-25 px-5 justify-content-end" style="border-right: 2px rgb(244, 243, 243) solid;">
+            <img src="assests/services3.svg" alt="" class="w-25 align-self-center pb-4 ">
+            <h6>Money Back Guarantee</h6>
+            <p class="text-secondary ">Free delivert on all orders</p>
+          </div>
+          
+          <div class="d-flex flex-column text-center justify-content-end  align-content-center w-25 px-5">
+            <img src="assests/services4.svg" alt="" class="w-25 align-self-center pb-4">
+            <h6>Online Support</h6>
+            <p class="text-secondary ">Free delivert on all orders</p>
+          </div>
+        </div>
+
+
+        <!-- footer -->
+        <footer class="align-content-center justify-content-center   text-bg-dark d-flex flex-column ">
+
+          <!-- footer container -->
+          <div  class="d-flex  flex-column w-75 align-self-center pb-xl-5">
+            <!-- top part -->
+            <div class="d-flex justify-content-between  align-items-center pt-5 pb-xl-5">
+              <div class="">
+                <h3>Subscribe Newsletter</h3>
+                <p>Subscribe newsletter to get 5% on all products.</p>
+              </div>
+  
+              <div class="d-flex">
+                <input type="text" class="input-group-text  rounded-0 mx-2 p-3 ">
+                <button class="btn btn-danger rounded-0 ">Subscribe</button>
+              </div>
+  
+              <div class="d-flex">
+                  <a class="nav-link px-2 " href="#">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                
+                  <a class="nav-link px-2 " href="#">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                
+                  <a class="nav-link px-2 " href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+               
+              </div>
+            </div>
+            <hr class="w-100 ">
+  
+            <!-- middle part -->
+            <div class="d-flex justify-content-between  fw-bold align-items-start pt-5 pb-xxl-5 ">
+              <img src="assests/logo2_footer.png" alt="">
+  
+              <ul class="" style="list-style: none;">
+                <h5>Shop Men</h5>
+                <li><a href="" class="link-light text-secondary link-underline-secondary link-underline-opacity-0  link-underline-opacity-100-hover ">Clothing Fashion</a></li>
+                <li><a href="" class="link-light text-secondary link-underline-secondary link-underline-opacity-0  link-underline-opacity-100-hover ">Winter</a></li>
+                <li><a href="" class="link-light text-secondary link-underline-secondary link-underline-opacity-0  link-underline-opacity-100-hover ">Summer</a></li>
+                <li><a href="" class="link-light text-secondary link-underline-secondary link-underline-opacity-0  link-underline-opacity-100-hover ">Formal</a></li>
+                <li><a href="" class="link-light text-secondary link-underline-secondary link-underline-opacity-0  link-underline-opacity-100-hover ">Casual</a></li>
+              </ul>
+              
+              <ul style="list-style: none;">
+                <h5>Shop Women</h5>
+                <li><a href="" class="link-light text-secondary link-underline-secondary link-underline-opacity-0  link-underline-opacity-100-hover ">Clothing Fashion</a></li>
+                <li><a href="" class="link-light text-secondary link-underline-secondary link-underline-opacity-0  link-underline-opacity-100-hover ">Winter</a></li>
+                <li><a href="" class="link-light text-secondary link-underline-secondary link-underline-opacity-0  link-underline-opacity-100-hover ">Summer</a></li>
+                <li><a href="" class="link-light text-secondary link-underline-secondary link-underline-opacity-0  link-underline-opacity-100-hover ">Formal</a></li>
+                <li><a href="" class="link-light text-secondary link-underline-secondary link-underline-opacity-0  link-underline-opacity-100-hover ">Casual</a></li>
+              </ul>
+              
+              <ul style="list-style: none;">
+                <h5 class="fw-semibold">Baby Collection</h5>
+                <li><a href="" class="link-light text-secondary link-underline-secondary link-underline-opacity-0  link-underline-opacity-100-hover ">Clothing Fashion</a></li>
+                <li><a href="" class="link-light text-secondary link-underline-secondary link-underline-opacity-0  link-underline-opacity-100-hover ">Winter</a></li>
+                <li><a href="" class="link-light text-secondary link-underline-secondary link-underline-opacity-0  link-underline-opacity-100-hover ">Summer</a></li>
+                <li><a href="" class="link-light text-secondary link-underline-secondary link-underline-opacity-0  link-underline-opacity-100-hover ">Formal</a></li>
+                <li><a href="" class="link-light text-secondary link-underline-secondary link-underline-opacity-0  link-underline-opacity-100-hover ">Casual</a></li>
+              </ul>
+              
+              <ul style="list-style: none;">
+                <h5 >Quick Links</h5>
+                <li class=""><a href="" class="link-light text-secondary link-underline-secondary link-underline-opacity-0  link-underline-opacity-100-hover ">Track Your Order</a></li>
+                <li><a href="" class="link-light text-secondary link-underline-secondary link-underline-opacity-0  link-underline-opacity-100-hover ">Support</a></li>
+                <li><a href="" class="link-light text-secondary link-underline-secondary link-underline-opacity-0  link-underline-opacity-100-hover ">FAQ</a></li>
+                <li><a href="" class="link-light text-secondary link-underline-secondary link-underline-opacity-0  link-underline-opacity-100-hover ">Carrier</a></li>
+                <li><a href="" class="link-light text-secondary link-underline-secondary link-underline-opacity-0  link-underline-opacity-100-hover ">About</a></li>
+                <li><a href="" class="link-light text-secondary link-underline-secondary link-underline-opacity-0  link-underline-opacity-100-hover ">Contact Us</a></li>
+              </ul>
+            </div>
+
+            <hr class="w-100 ">
+            <div class="align-self-center pt-3 pb-3 ">
+              Copyright ©2023 All rights reserved | This template is made with &#10084; by <span class="link-danger ">Colorlib</span>
+            </div>
+          </div>
+          
+        </footer>
+
+
+
+      <script>
+        $(document).ready(function() {
+          $('.dropdown-toggle').dropdown();
+        });
+      </script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
